@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baily">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".setting"></activity>
+        <activity android:name=".BirthdayPicker" />
+        <activity android:name=".FindPwPage3" />
+        <activity android:name=".FindPwPage2" />
+        <activity android:name=".FindPwPage" />
+        <activity android:name=".FindIdPage2" />
+        <activity android:name=".FindIdPage" />
+        <activity android:name=".ThirdPage" />
+        <activity android:name=".SecondPage">
+
+        </activity>
+        <activity android:name=".FirstPage" />
+        <activity android:name=".MainPage"></activity>
+        <activity android:name=".FragStandard" />
+        <activity android:name=".FragGrowth" />
+        <activity android:name=".FragHome" />
+        <activity android:name=".FragRecode" />
+        <activity android:name=".FragDiary" />
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
